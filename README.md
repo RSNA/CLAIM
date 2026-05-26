@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="CLAIM+logo+solid+blue.jpg" alt="CLAIM Logo" width="480" />
+</p>
+
 # CLAIM: CheckList for Artificial Intelligence in Medical Imaging
 
 Checklist information
