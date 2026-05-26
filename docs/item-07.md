@@ -21,7 +21,7 @@ Explanation and Elaboration: Any intelligence in a machine learning model is der
 </tr>
 <tr class="even">
 <td><blockquote>
-<p><img src="/mnt/data/claim-elaboration/docs/assets/media/media/image1.png" style="width:2.97917in;height:1.94444in" /></p>
+<p><img src="{{ '/assets/media/media/image1.png' | relative_url }}" style="max-width:100%; width:2.97917in;height:1.94444in" /></p>
 </blockquote>
 <p>Fig. 1 | Data, model architecture and modeling strategy. a, Our model for differential dementia diagnosis was developed using diverse data modalities, including individual-level demographics, health history, neurological testing, physical/neurological exams and multisequence MRI scans. These data sources whenever available were aggregated from nine independent cohorts: 4RTNI, ADNI, AIBL, FHS, LBDSU, NACC, NIFD, OASIS and PPMI…. For model training, we merged data from NACC, AIBL, PPMI, NIFD, LBDSU, OASIS and 4RTNI. We used a subset of the NACC dataset for internal testing. For external validation, we utilized the ADNI and FHS cohorts. [Figure 1a and its caption <a href="https://sciwheel.com/work/citation?ids=16660789&amp;pre=&amp;suf=&amp;sa=0">(19)</a>, CC-BY 4.0]</p></td>
 </tr>

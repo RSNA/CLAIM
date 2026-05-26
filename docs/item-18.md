@@ -25,7 +25,7 @@ Explanation and Elaboration: Inter- and intrarater variability should be reporte
 </tr>
 <tr class="odd">
 <td><p>A Bland-Altman plot comparing the AI-derived and expert CACS is depicted in <a href="https://pubs.rsna.org/doi/10.1148/radiol.242087#supplementary-materials">Figure S1</a>, revealing a bias of 5.06 Agatston units, with 95% LOA from −287.42 to 297.55. Stratified analysis per scanner manufacturer showed a bias of 4.67 (95% LOA: −118.65 to 127.99) for Siemens Healthineers, 5.83 (95% LOA: −341.36 to 353.02) for Canon, and 3.23 (95% LOA: −348.72 to 355.19) for Philips scanners.</p>
-<p><img src="/mnt/data/claim-elaboration/docs/assets/media/media/image3.png" style="width:6.11458in;height:4.91667in" /></p>
+<p><img src="{{ '/assets/media/media/image3.png' | relative_url }}" style="max-width:100%; width:6.11458in;height:4.91667in" /></p>
 <p>Figure S1: Bland-Altman plot between coronary artery calcium scoring in Agatston units obtained from original cardiac CT report and AI algorithm. [Results and Figure S1 <a href="https://sciwheel.com/work/citation?ids=18821773&amp;pre=&amp;suf=&amp;sa=0">(43)</a>, © RSNA 2025]</p></td>
 </tr>
 </tbody>
