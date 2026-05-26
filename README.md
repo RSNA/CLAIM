@@ -28,6 +28,7 @@ The project provides an explanation and elaboration resource for the CLAIM 2024 
 ## Local preview
 
 ```bash
+cd docs
 bundle install
 bundle exec jekyll serve
 ```
@@ -36,11 +37,10 @@ The site will be available at `http://localhost:4000`.
 
 ## Publish on GitHub Pages
 
-1. Create a public GitHub repository named `CLAIM-Elaboration` under your preferred owner.
-2. Push this repository to GitHub.
-3. In GitHub, go to **Settings > Pages**.
-4. Set the source to **GitHub Actions**.
-5. The included workflow will build and deploy the site automatically.
+1. Push this repository to GitHub.
+2. In GitHub, go to **Settings > Pages**.
+3. Set the source to **GitHub Actions**.
+4. The included workflow (`.github/workflows/deploy.yml`) will build and deploy the site automatically on every push to `main`.
 
 ## License
 
