@@ -1,4 +1,12 @@
-# CLAIM Elaboration
+# CLAIM: CheckList for Artificial Intelligence in Medical Imaging
+
+Checklist information
+
+- CLAIM Guideline site
+- Checklist - 2024 update (Word document)
+- Journal article
+
+# CLAIM Elaboration and Examples
 
 This repository hosts **Checklist for Artificial Intelligence in Medical Imaging (CLAIM): Explanation, Elaboration and Examples**.
 
