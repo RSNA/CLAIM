@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "CLAIM Elaboration"
+message: "If you use this repository, please cite it using the metadata below."
+type: article
+authors:
+  - family-names: "To be confirmed"
+    given-names: "To be confirmed"
+year: 2026
+license: MIT
+repository-code: "https://github.com/<OWNER>/CLAIM-Elaboration"

@@ -1,0 +1,20 @@
+title: CLAIM Elaboration
+description: Explanation, elaboration and examples for the CLAIM 2024 guideline.
+theme: just-the-docs
+url: ""
+baseurl: ""
+
+aux_links:
+  "View on GitHub": "https://github.com/<OWNER>/CLAIM-Elaboration"
+
+search_enabled: true
+heading_anchors: true
+color_scheme: light
+
+callouts:
+  note:
+    title: Note
+    color: blue
+  warning:
+    title: Warning
+    color: yellow
