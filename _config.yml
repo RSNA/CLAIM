@@ -5,7 +5,7 @@ url: ""
 baseurl: ""
 
 aux_links:
-  "View on GitHub": "https://github.com/<OWNER>/CLAIM-Elaboration"
+  "View on GitHub": "https://github.com/RSNA/CLAIM"
 
 search_enabled: true
 heading_anchors: true
