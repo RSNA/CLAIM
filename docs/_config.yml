@@ -12,6 +12,13 @@ aux_links:
 
 aux_links_new_tab: true
 
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
 search_enabled: true
 heading_anchors: true
 color_scheme: light
