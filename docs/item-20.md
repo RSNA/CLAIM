@@ -14,7 +14,7 @@ Explanation and Elaboration: Ideally, the level of independence between data in 
 |                                                                                                                                                                                                                                                                           |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Examples**                                                                                                                                                                                                                                                              |
-| A total of 1143 scans (616 MRI, 527 CT) were split into the training set (n = 1088; CT and MRI scans) and internal test set (n = 55; only MRI scans) at the patient level. \[Results [(37)](https://sciwheel.com/work/citation?ids=17526637&pre=&suf=&sa=0), ©RSNA 2025\] |
-| The remaining dataset was randomly split at the patient level in the ratio of 80% and 20% for training and validation respectively. \[Methods [(47)](https://sciwheel.com/work/citation?ids=17389266&pre=&suf=&sa=0), CC-BY 4.0\]                                         |
+| A total of 1143 scans (616 MRI, 527 CT) were split into the training set (n = 1088; CT and MRI scans) and internal test set (n = 55; only MRI scans) at the patient level. \[Results [(37)](https://doi.org/10.1148/radiol.241613), ©RSNA 2025\] |
+| The remaining dataset was randomly split at the patient level in the ratio of 80% and 20% for training and validation respectively. \[Methods [(47)](https://doi.org/10.1371/journal.pdig.0000569), CC-BY 4.0\]                                         |
 
 

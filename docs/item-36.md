@@ -21,11 +21,11 @@ Explanation and Elaboration: Key characteristics include age, sex, race/ethnicit
 </tr>
 <tr class="even">
 <td><p><img src="{{ '/assets/media/media/image9.jpg' | relative_url }}" style="max-width:100%; width:2.97917in;height:2.65278in" alt="Table 1:" /></p>
-<p>Table 1: Demographic Characteristics for Training, Validation, and Test Sets. [Table 1 and its caption <a href="https://sciwheel.com/work/citation?ids=17336115&amp;pre=&amp;suf=&amp;sa=0">(32)</a>, CC-BY 4.0]</p></td>
+<p>Table 1: Demographic Characteristics for Training, Validation, and Test Sets. [Table 1 and its caption <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Ezeana+2023">(32)</a>, CC-BY 4.0]</p></td>
 </tr>
 <tr class="odd">
 <td><p><img src="{{ '/assets/media/media/image10.jpg' | relative_url }}" style="max-width:100%; width:2.97917in;height:2.88889in" alt="Table 2:" /></p>
-<p>Table 2: Patient and Imaging Characteristics of Skellytour Dataset, with Data for Total, Training, and Test Datasets. [Table 2 and its caption <a href="https://sciwheel.com/work/citation?ids=17699011&amp;pre=&amp;suf=&amp;sa=0">(14)</a>, CC BY 4.0]</p></td>
+<p>Table 2: Patient and Imaging Characteristics of Skellytour Dataset, with Data for Total, Training, and Test Datasets. [Table 2 and its caption <a href="https://doi.org/10.1148/ryai.240050">(14)</a>, CC BY 4.0]</p></td>
 </tr>
 </tbody>
 </table>
