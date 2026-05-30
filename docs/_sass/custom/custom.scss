@@ -1,0 +1,18 @@
+// Reduce logo image size without altering the header layout
+.site-logo {
+  background-size: auto 2.2rem;
+}
+
+// Prev/Next navigation buttons at bottom of item pages
+.page-nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eeebee;
+}
+
+.page-nav-buttons .btn {
+  font-size: 0.875rem;
+}

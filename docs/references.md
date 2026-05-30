@@ -1,7 +1,7 @@
 ---
 layout: default
 title: References
-nav_order: 4
+nav_order: 5
 ---
 
 # References
@@ -68,7 +68,7 @@ nav_order: 4
 
 [31. Eijgelaar RS, Visser M, Müller DMJ, Barkhof F, Vrenken H, van Herk M, et al. Robust Deep Learning-based Segmentation of Glioblastoma on Routine Clinical MRI Scans Using Sparsified Training. Radiol Artif Intell. 2020 Sep 30;2(5):e190103.](https://doi.org/10.1148/ryai.2020190103)
 
-[32. Ezeana CF, He T, Patel TA, Kaklamani V, Elmi M, Brigmon E, et al. A Deep Learning Decision Support Tool to Improve Risk Stratification                    and Reduce Unnecessary Biopsies in BI-RADS 4 Mammograms. Radiology: Artificial Intelligence. 2023 Aug 9;](https://pubmed.ncbi.nlm.nih.gov/?term=Ezeana+2023)
+[32. Ezeana CF, He T, Patel TA, Kaklamani V, Elmi M, Brigmon E, et al. A Deep Learning Decision Support Tool to Improve Risk Stratification and Reduce Unnecessary Biopsies in BI-RADS 4 Mammograms. Radiol Artif Intell. 2023 Nov;5(6):e220259.](https://doi.org/10.1148/ryai.220259)
 
 [33. Fields BKK, Calabrese E, Mongan J, Cha S, Hess CP, Sugrue LP, et al. The University of California San Francisco Adult Longitudinal Post-Treatment Diffuse Glioma MRI Dataset. Radiol Artif Intell. 2024 Jul;6(4):e230182.](https://doi.org/10.1148/ryai.230182)
 
@@ -146,7 +146,7 @@ nav_order: 4
 
 [70. Fahmy AS, Rowin EJ, Arafati A, Al-Otaibi T, Maron MS, Nezafat R. Radiomics and deep learning for myocardial scar screening in hypertrophic cardiomyopathy. J Cardiovasc Magn Reson. 2022 Jun 27;24(1):40.](https://pubmed.ncbi.nlm.nih.gov/?term=Fahmy+2022)
 
-[71. Teneggi J, Yi PH, Sulam J. Examination-level Supervision for Deep Learning–based                    Intracranial Hemorrhage Detection at Head CT. Radiology: Artificial Intelligence. 2023 Dec 20;](https://pubmed.ncbi.nlm.nih.gov/?term=Teneggi+2023)
+[71. Teneggi J, Yi PH, Sulam J. Examination-level Supervision for Deep Learning-based Intracranial Hemorrhage Detection at Head CT. Radiol Artif Intell. 2024 Jan;6(1):e230159.](https://doi.org/10.1148/ryai.230159)
 
 [72. Dembrower K, Crippa A, Colón E, Eklund M, Strand F, ScreenTrustCAD Trial Consortium. Artificial intelligence for breast cancer detection in screening mammography in Sweden: a prospective, population-based, paired-reader, non-inferiority study. Lancet Digit Health. 2023 Oct;5(10):e703–11.](https://pubmed.ncbi.nlm.nih.gov/?term=Dembrower+2023)
 

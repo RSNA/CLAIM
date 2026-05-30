@@ -31,19 +31,14 @@ This document explains the CLAIM items in detail; each section includes the item
 
 Text of the CLAIM guideline is included verbatim by permission of the Radiological Society of North America (RSNA). Incorporation of text from RSNA journals, particularly from *Radiology: Artificial Intelligence*, is provided with RSNA's permission. Text from other articles is provided under the Creative Commons (CC) license, as noted in the references. For simplicity citations are removed from the original text, and ellipses are used to indicate removals and to ensure all manipulations remain traceable. This rule applies to both CLAIM excerpts and examples.
 
-**To navigate the checklist items**, use the sidebar on the left. Under **CLAIM 2024 Items**, all 44 items are listed and can be browsed individually. Each item page contains:
+**To navigate**, use the sidebar on the left:
 
-1. The item's **definition** (as specified in the CLAIM 2024 guideline)
-2. An **explanation and elaboration** of the item's intent
-3. Illustrative **examples from the literature** demonstrating appropriate adherence
-
----
-
-## Contents
-
-- [Introduction](introduction.md)
-- [CLAIM 2024 Items](claim-items.md)
-- [References](references.md)
+- **[CLAIM 2024 Checklist](checklist.md)** — Interactive checklist with checkboxes and page/line fields; print or export to PDF.
+- **[CLAIM 2024 Items](claim-items.md)** — All 44 items grouped by section. Each item page contains:
+  1. The item's **definition** (as specified in the CLAIM 2024 guideline)
+  2. An **explanation and elaboration** of the item's intent
+  3. Illustrative **examples from the literature** demonstrating appropriate adherence
+- **[References](references.md)** — Full reference list.
 
 {: .note }
 MIT is included as a placeholder license. Confirm final publication, copyright and third-party reuse permissions before public release.

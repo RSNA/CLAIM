@@ -1,0 +1,26 @@
+{% if page.parent %}
+  {% assign siblings = site.pages | where: "parent", page.parent | sort: "nav_order" %}
+  {% assign page_count = siblings | size %}
+  {% assign found_idx = 0 %}
+  {% for sibling in siblings %}
+    {% if sibling.url == page.url %}
+      {% assign found_idx = forloop.index0 %}
+    {% endif %}
+  {% endfor %}
+  <div class="page-nav-buttons">
+    <span>
+      {% if found_idx > 0 %}
+        {% assign prev_idx = found_idx | minus: 1 %}
+        {% assign prev_page = siblings[prev_idx] %}
+        <a href="{{ prev_page.url | relative_url }}" class="btn btn-outline">&lsaquo; {{ prev_page.title }}</a>
+      {% endif %}
+    </span>
+    <span>
+      {% assign next_idx = found_idx | plus: 1 %}
+      {% if next_idx < page_count %}
+        {% assign next_page = siblings[next_idx] %}
+        <a href="{{ next_page.url | relative_url }}" class="btn btn-outline">{{ next_page.title }} &rsaquo;</a>
+      {% endif %}
+    </span>
+  </div>
+{% endif %}

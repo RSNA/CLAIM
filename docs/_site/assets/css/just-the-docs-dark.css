@@ -7798,4 +7798,21 @@ blockquote.highlight-title > p:last-child {
   margin-bottom: 0;
 }
 
+.site-logo {
+  background-size: auto 2.2rem;
+}
+
+.page-nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eeebee;
+}
+
+.page-nav-buttons .btn {
+  font-size: 0.875rem;
+}
+
 /*# sourceMappingURL=just-the-docs-dark.css.map */
