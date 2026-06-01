@@ -171,7 +171,7 @@ nav_order: 4
       width: 100% !important;
     }
 
-    /* Checklist table: fill the page, readable font */
+    /* Checklist table: fill the page, all 6 columns visible */
     .checklist-wrapper {
       width: 100% !important;
       overflow: visible !important;
@@ -180,8 +180,20 @@ nav_order: 4
     .checklist-table {
       font-size: 8.5pt;
       width: 100% !important;
-      table-layout: auto;
+      table-layout: fixed !important;
     }
+
+    /* Explicit column widths so No and NA are never pushed off-page */
+    .checklist-table th:nth-child(1) { width: 11% !important; }
+    .checklist-table th:nth-child(2) { width:  4% !important; }
+    .checklist-table th:nth-child(3) { width: 51% !important; }
+    .checklist-table th:nth-child(4) { width: 14% !important; }
+    .checklist-table th:nth-child(5) { width: 10% !important; }
+    .checklist-table th:nth-child(6) { width: 10% !important; }
+
+    /* Allow item text to wrap freely within its column */
+    .checklist-table td.item-text   { min-width: 0 !important; word-wrap: break-word; }
+    .checklist-table td.subsection-label { white-space: normal !important; }
 
     .checklist-table td.item-text a { color: black; }
     .page-input { border: 1px solid #000; background: white; }
