@@ -107,6 +107,11 @@ nav_order: 4
     color: #555;
   }
 
+  /* Remove content max-width so table fills the full space beside the sidebar */
+  .main-content-wrap {
+    max-width: none !important;
+  }
+
   @media print {
     .side-bar,
     .main-header,
@@ -122,12 +127,13 @@ nav_order: 4
     .main-content-wrap {
       margin-left: 0 !important;
       max-width: 100% !important;
+      padding: 0 !important;
     }
     .main-content {
       padding: 0 !important;
     }
     body { font-size: 10pt; }
-    .checklist-table { font-size: 9pt; }
+    .checklist-table { font-size: 9pt; width: 100%; }
     .checklist-table td.item-text a { color: black; }
     .page-input { border: 1px solid black; background: white; }
   }
