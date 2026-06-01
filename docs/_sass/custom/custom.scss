@@ -3,18 +3,6 @@
   background-size: auto 2.2rem;
 }
 
-// Responsive sidebar: percentage-based width so it scales with viewport
-// rather than staying at a fixed 264px regardless of window size
-@media (min-width: 66.5rem) {
-  .side-bar {
-    width: 18vw !important;
-    min-width: 180px !important;
-    max-width: 260px !important;
-  }
-  .main {
-    margin-left: 18vw !important;
-  }
-}
 
 // Prev/Next navigation buttons at bottom of item pages
 .page-nav-buttons {

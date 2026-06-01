@@ -7802,16 +7802,6 @@ blockquote.highlight-title > p:last-child {
   background-size: auto 2.2rem;
 }
 
-@media (min-width: 66.5rem) {
-  .side-bar {
-    width: 18vw !important;
-    min-width: 180px !important;
-    max-width: 260px !important;
-  }
-  .main {
-    margin-left: 18vw !important;
-  }
-}
 .page-nav-buttons {
   display: flex;
   justify-content: space-between;

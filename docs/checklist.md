@@ -107,9 +107,23 @@ nav_order: 4
     color: #555;
   }
 
-  /* Remove content max-width so table fills the full space beside the sidebar */
-  .main-content-wrap {
-    max-width: none !important;
+  /* Remove the 800px content cap that just-the-docs applies at ≥800px */
+  @media (min-width: 50rem) {
+    .main {
+      max-width: none !important;
+    }
+  }
+
+  /* At ≥1064px just-the-docs grows the sidebar to keep content centred at 800px.
+     Pin it back to its fixed width so the content area expands instead. */
+  @media (min-width: 66.5rem) {
+    .side-bar {
+      width: 16.5rem !important;
+      min-width: 16.5rem !important;
+    }
+    .side-bar + .main {
+      margin-left: 16.5rem !important;
+    }
   }
 
   @media print {
@@ -123,14 +137,12 @@ nav_order: 4
     }
     .main {
       margin-left: 0 !important;
+      max-width: none !important;
     }
-    .main-content-wrap {
-      margin-left: 0 !important;
-      max-width: 100% !important;
-      padding: 0 !important;
-    }
+    .main-content-wrap,
     .main-content {
       padding: 0 !important;
+      max-width: 100% !important;
     }
     body { font-size: 10pt; }
     .checklist-table { font-size: 9pt; width: 100%; }
