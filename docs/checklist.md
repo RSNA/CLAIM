@@ -107,16 +107,19 @@ nav_order: 4
     color: #555;
   }
 
-  /* Remove the 800px content cap that just-the-docs applies at ≥800px */
-  @media (min-width: 50rem) {
+  /* ── SCREEN ONLY ─────────────────────────────────────────────────────────
+     Using "screen and" ensures these rules never bleed into print/PDF.      */
+
+  /* Remove the 800px content cap */
+  @media screen and (min-width: 50rem) {
     .main {
       max-width: none !important;
     }
   }
 
-  /* At ≥1064px just-the-docs grows the sidebar to keep content centred at 800px.
-     Pin it back to its fixed width so the content area expands instead. */
-  @media (min-width: 66.5rem) {
+  /* At ≥1064px just-the-docs grows the sidebar to centre content at 800px.
+     Pin it back to its base width so the table fills all remaining space. */
+  @media screen and (min-width: 66.5rem) {
     .side-bar {
       width: 16.5rem !important;
       min-width: 16.5rem !important;
@@ -126,28 +129,68 @@ nav_order: 4
     }
   }
 
+  /* ── PRINT / EXPORT PDF ───────────────────────────────────────────────── */
   @media print {
+    @page {
+      margin: 1.2cm;
+      size: landscape;
+    }
+
+    /* Hide all navigation chrome */
     .side-bar,
     .main-header,
     .aux-nav,
     .page-nav-buttons,
     .no-print,
-    footer {
+    footer,
+    .site-footer {
       display: none !important;
     }
-    .main {
-      margin-left: 0 !important;
-      max-width: none !important;
+
+    /* Full-width layout — no sidebar margin, no max-width cap */
+    html, body {
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
     }
-    .main-content-wrap,
-    .main-content {
+
+    .main,
+    .side-bar + .main {
+      margin: 0 !important;
       padding: 0 !important;
       max-width: 100% !important;
+      width: 100% !important;
+      position: static !important;
     }
-    body { font-size: 10pt; }
-    .checklist-table { font-size: 9pt; width: 100%; }
+
+    .main-content-wrap,
+    .main-content {
+      margin: 0 !important;
+      padding: 0 !important;
+      max-width: 100% !important;
+      width: 100% !important;
+    }
+
+    /* Checklist table: fill the page, readable font */
+    .checklist-wrapper {
+      width: 100% !important;
+      overflow: visible !important;
+    }
+
+    .checklist-table {
+      font-size: 8.5pt;
+      width: 100% !important;
+      table-layout: auto;
+    }
+
     .checklist-table td.item-text a { color: black; }
-    .page-input { border: 1px solid black; background: white; }
+    .page-input { border: 1px solid #000; background: white; }
+
+    /* Avoid splitting a row across pages */
+    .checklist-table tr {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
   }
 </style>
 
