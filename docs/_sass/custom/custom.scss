@@ -3,6 +3,19 @@
   background-size: auto 2.2rem;
 }
 
+// Pin sidebar at its base width on all pages.
+// By default just-the-docs grows the sidebar at ≥1064px to keep content
+// centred at 800px — this override keeps the sidebar consistently fixed.
+@media screen and (min-width: 66.5rem) {
+  .side-bar {
+    width: 16.5rem !important;
+    min-width: 16.5rem !important;
+  }
+  .side-bar + .main {
+    margin-left: 16.5rem !important;
+  }
+}
+
 
 // Prev/Next navigation buttons at bottom of item pages
 .page-nav-buttons {

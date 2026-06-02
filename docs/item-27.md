@@ -26,7 +26,7 @@ Explanation and Elaboration: Ensembling is the process of combining predictions 
 </tr>
 <tr class="odd">
 <td><p><img src="{{ '/assets/media/media/image5.png' | relative_url }}" style="max-width:100%; width:2.97917in;height:1.33333in" /></p>
-<p>The proposed approach ensembles the five deep CNN models Resnet50 …, Inceptionv3 …, Xception …, Dense - 121 …, Dense169 …. Algorithm 1 presents the proposed model in detail. Let H= {Resnet50, Inceptionv3, Xception, Dense121, Dense169} be the set of pre-trained models. Each model is fine tuned with the Fundus Images dataset (X,Y) ; where X the set of N images, each of size, 512×512 , and Y contain the corresponding labels, Y={y/y∈{Normal,Mild,Moderate,Severe,PDR}}. [Methods section, Equation 3, and summary figure <a href="https://doi.org/10.1148/ryai.220259">(60)</a>, CC-BY 4.0]</p></td>
+<p>The proposed approach ensembles the five deep CNN models Resnet50 …, Inceptionv3 …, Xception …, Dense - 121 …, Dense169 …. Algorithm 1 presents the proposed model in detail. Let H= {Resnet50, Inceptionv3, Xception, Dense121, Dense169} be the set of pre-trained models. Each model is fine tuned with the Fundus Images dataset (X,Y) ; where X the set of N images, each of size, 512×512 , and Y contain the corresponding labels, Y={y/y∈{Normal,Mild,Moderate,Severe,PDR}}. [Methods section, Equation 3, and summary figure <a href="https://doi.org/10.1109/ACCESS.2019.2947484">(60)</a>, CC-BY 4.0]</p></td>
 </tr>
 </tbody>
 </table>

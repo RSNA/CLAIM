@@ -108,24 +108,11 @@ nav_order: 4
   }
 
   /* ── SCREEN ONLY ─────────────────────────────────────────────────────────
-     Using "screen and" ensures these rules never bleed into print/PDF.      */
-
-  /* Remove the 800px content cap */
+     Remove the 800px content cap so the checklist table fills all available
+     space beside the sidebar (sidebar width is fixed globally in custom.scss). */
   @media screen and (min-width: 50rem) {
     .main {
       max-width: none !important;
-    }
-  }
-
-  /* At ≥1064px just-the-docs grows the sidebar to centre content at 800px.
-     Pin it back to its base width so the table fills all remaining space. */
-  @media screen and (min-width: 66.5rem) {
-    .side-bar {
-      width: 16.5rem !important;
-      min-width: 16.5rem !important;
-    }
-    .side-bar + .main {
-      margin-left: 16.5rem !important;
     }
   }
 

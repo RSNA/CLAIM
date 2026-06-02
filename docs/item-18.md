@@ -21,7 +21,7 @@ Explanation and Elaboration: Inter- and intrarater variability should be reporte
 </tr>
 <tr class="even">
 <td><p>The interstudy repeatability was assessed with interclass correlation coefficient (ICC) and Bland-Altman analysis to compare the scan-rescan variation in the automated and manual cardiac MRI measurements. The paired t test was calculated to compare the differences in scan-rescan measurements between AI and manual assessment….</p>
-<p>The interstudy repeatability of cardiac MRI measurements was high for both AI and manual measurements. The automatic LV and RV volumetric and mass measurements ICC were 0.92 and 0.99, respectively. The ICC for LV and RV ejection fraction was 0.80 and 0.90, respectively (Table 5). [Methods and results <a href="https://doi.org/10.1148/ryai.220259">(42)</a>, CC-BY 4.0]</p></td>
+<p>The interstudy repeatability of cardiac MRI measurements was high for both AI and manual measurements. The automatic LV and RV volumetric and mass measurements ICC were 0.92 and 0.99, respectively. The ICC for LV and RV ejection fraction was 0.80 and 0.90, respectively (Table 5). [Methods and results <a href="https://doi.org/10.1148/radiol.212929">(42)</a>, CC-BY 4.0]</p></td>
 </tr>
 <tr class="odd">
 <td><p>A Bland-Altman plot comparing the AI-derived and expert CACS is depicted in <a href="https://pubs.rsna.org/doi/10.1148/radiol.242087#supplementary-materials">Figure S1</a>, revealing a bias of 5.06 Agatston units, with 95% LOA from −287.42 to 297.55. Stratified analysis per scanner manufacturer showed a bias of 4.67 (95% LOA: −118.65 to 127.99) for Siemens Healthineers, 5.83 (95% LOA: −341.36 to 353.02) for Canon, and 3.23 (95% LOA: −348.72 to 355.19) for Philips scanners.</p>

@@ -27,7 +27,7 @@ Explanation and Elaboration: Analyses involve systematically evaluating how vari
 <td>In the DCE MRI sequence, various temporal phases are designated as time 0 through time 5. Time 0 is identified as the phase prior to contrast enhancement, while time 1 to time 5 represent successive contrast-enhanced phases following the initial noncontrast sequence. Ablation experiments were conducted by testing a model using only clinical features, a three-dimensional (3D) model using only time 2 to time 0 volumes, an image-only model that utilizes all DCE time points (four-dimensional [4D] model), and last, a 4D hybrid model integrating difference volumes and clinicopathologic data. [Materials and methods <a href="https://doi.org/10.1148/rycan.230107">(66)</a>, CC BY 4.0]</td>
 </tr>
 <tr class="even">
-<td>Data augmentation was performed by creating new training samples by randomly rotating, flipping, shifting, and modifying the image intensities of the original images. Each training batch included a random selection of 20 images. [Materials and methods <a href="https://doi.org/10.1148/ryai.220259">(42)</a>, CC BY 4.0]</td>
+<td>Data augmentation was performed by creating new training samples by randomly rotating, flipping, shifting, and modifying the image intensities of the original images. Each training batch included a random selection of 20 images. [Materials and methods <a href="https://doi.org/10.1148/radiol.212929">(42)</a>, CC BY 4.0]</td>
 </tr>
 </tbody>
 </table>
