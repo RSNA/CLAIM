@@ -14,7 +14,7 @@ Explanation and Elaboration: Clinical trial registration promotes research trans
 |                                                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Examples**                                                                                                                                                                 |
-| The trial was registered with ClinicalTrials.gov (NCT05172232). \[Materials and methods [(16)](https://doi.org/10.1148/ryai.220259), CC BY 4.0.\] |
-| This study is registered with ClinicalTrials.gov, NCT04778670. \[Methods [(72)](https://doi.org/10.1148/ryai.220259), CC BY 4.0.\]                |
+| The trial was registered with ClinicalTrials.gov (NCT05172232). \[Materials and methods [(16)](https://doi.org/10.1093/bjd/ljae021), CC BY 4.0.\] |
+| This study is registered with ClinicalTrials.gov, NCT04778670. \[Methods [(72)](https://doi.org/10.1016/S2589-7500(23)00153-X), CC BY 4.0.\]                |
 
 

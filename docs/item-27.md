@@ -9,7 +9,7 @@ nav_order: 27
 
 ### If the final algorithm involves an ensemble of models, describe each model comprising the ensemble in complete detail in accordance with the preceding recommendations. Indicate how the outputs of the component models are weighted and/or combined.
 
-Explanation and Elaboration: Ensembling is the process of combining predictions from multiple models to improve the overall performance of an algorithm. Ensembles can leverage the strengths of each component model. Common techniques to create ensemble models include bagging, boosting, stacking, and voting [(58)](https://doi.org/10.1148/ryai.220259).Authors should provide the rationale behind the technique used to ensemble, including detail any experiments done to determine the most optimal technique.
+Explanation and Elaboration: Ensembling is the process of combining predictions from multiple models to improve the overall performance of an algorithm. Ensembles can leverage the strengths of each component model. Common techniques to create ensemble models include bagging, boosting, stacking, and voting [(58)](https://doi.org/10.3390/healthcare11121808).Authors should provide the rationale behind the technique used to ensemble, including detail any experiments done to determine the most optimal technique.
 
 <table>
 <colgroup>
