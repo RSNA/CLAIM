@@ -7734,14 +7734,14 @@ blockquote.warning-title > p:last-child {
 }
 
 p.highlight, blockquote.highlight {
-  border: 1px #381885 solid;
-  border-left: 4px solid #381885;
+  border: 1px #183385 solid;
+  border-left: 4px solid #183385;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   padding: 0.8rem;
 }
 p.highlight::before, blockquote.highlight::before {
-  color: #381885;
+  color: #183385;
   content: "Highlight";
   display: block;
   font-weight: bold;
@@ -7750,7 +7750,7 @@ p.highlight::before, blockquote.highlight::before {
   padding-bottom: 0.125rem;
 }
 p.highlight > .highlight-title, blockquote.highlight > .highlight-title {
-  color: #381885;
+  color: #183385;
   display: block;
   font-weight: bold;
   text-transform: uppercase;
@@ -7759,8 +7759,8 @@ p.highlight > .highlight-title, blockquote.highlight > .highlight-title {
 }
 
 p.highlight-title, blockquote.highlight-title {
-  border: 1px #381885 solid;
-  border-left: 4px solid #381885;
+  border: 1px #183385 solid;
+  border-left: 4px solid #183385;
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
   padding: 0.8rem;
@@ -7768,7 +7768,7 @@ p.highlight-title, blockquote.highlight-title {
 p.highlight-title > p:first-child, blockquote.highlight-title > p:first-child {
   margin-top: 0;
   margin-bottom: 0;
-  color: #381885;
+  color: #183385;
   display: block;
   font-weight: bold;
   text-transform: uppercase;

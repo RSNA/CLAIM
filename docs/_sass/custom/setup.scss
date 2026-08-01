@@ -1,0 +1,6 @@
+// CLAIM brand colors, sampled from the logo (CLAIM-logo.jpg).
+// Overrides the theme's default purple accent — must be set here, before
+// color_schemes/light.scss is imported, since that file assigns these
+// with !default.
+$link-color: #1f5493;
+$btn-primary-color: darken(#1f5493, 14%);
