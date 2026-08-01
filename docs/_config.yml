@@ -24,7 +24,7 @@ heading_anchors: true
 color_scheme: light
 
 
-footer_content: "CLAIM: Checklist for Artificial Intelligence in Medical Imaging. Content provided under MIT placeholder license."
+footer_content: "CLAIM: Checklist for Artificial Intelligence in Medical Imaging. Content licensed under CC BY-NC-ND 4.0; site code licensed under MIT."
 
 callouts:
   note:

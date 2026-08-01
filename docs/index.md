@@ -41,4 +41,4 @@ Text of the CLAIM guideline is included verbatim by permission of the Radiologic
 - **[References](references.md)** — Full reference list.
 
 {: .note }
-MIT is included as a placeholder license. Confirm final publication, copyright and third-party reuse permissions before public release.
+Site content is licensed under [CC BY-NC-ND 4.0](https://github.com/RSNA/CLAIM/blob/main/LICENSE); site code and tooling are licensed under [MIT](https://github.com/RSNA/CLAIM/blob/main/LICENSE-CODE). Illustrative examples and CLAIM guideline text retain their original copyright and permissions as described above.

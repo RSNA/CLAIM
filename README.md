@@ -44,7 +44,8 @@ Tejani AS, Klontzas ME, Gatti AA, et al. Checklist for Artificial Intelligence i
 ├── start.sh               # One-command local server + tunnel script
 ├── CITATION.cff           # Citation metadata
 ├── CONTRIBUTING.md        # Contribution guidance
-└── LICENSE
+├── LICENSE                # Content license (CC BY-NC-ND 4.0)
+└── LICENSE-CODE           # Code license (MIT)
 ```
 
 ## Local preview
@@ -69,4 +70,9 @@ Alternatively, use `./start.sh` from the repository root to start Jekyll and a C
 
 ## License
 
-MIT placeholder license. Confirm final publication, copyright, and third-party reuse permissions before public release.
+This repository uses a dual license:
+
+- **Content** (`claim_full.md`, `README.md`, and the `docs/` site pages, including the checklist elaborations) is licensed under [**CC BY-NC-ND 4.0**](LICENSE) (Attribution-NonCommercial-NoDerivatives).
+- **Code** (site tooling and scripts, including `start.sh`, `docs/_config.yml`, `docs/_plugins/`, `docs/_sass/`, `docs/_includes/`, `.github/workflows/`, and `Gemfile`) is licensed under the [**MIT License**](LICENSE-CODE).
+
+Illustrative examples and excerpts quoted from third-party published literature retain their original copyright and license terms as noted in the text and [references](docs/references.md); they are not relicensed under CC BY-NC-ND 4.0. CLAIM guideline text reproduced verbatim is included by permission of the Radiological Society of North America (RSNA) and is likewise not covered by the CC BY-NC-ND 4.0 grant.

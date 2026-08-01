@@ -6,5 +6,7 @@ authors:
   - family-names: "To be confirmed"
     given-names: "To be confirmed"
 year: 2026
-license: MIT
+license:
+  - CC-BY-NC-ND-4.0
+  - MIT
 repository-code: "https://github.com/<OWNER>/CLAIM-Elaboration"
