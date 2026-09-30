@@ -16,6 +16,12 @@ The site includes:
 - **CLAIM 2024 Items** — All 44 items grouped by section (Title/Abstract, Introduction, Methods, Results, Discussion, Other Information). Each item page contains the item definition, explanation and elaboration, and illustrative examples from the literature.
 - **References** — Full reference list for all cited works.
 
+## Citation
+
+This website accompanies the following article. If you use this resource, please cite:
+
+Akinci D'Antonoli T, Adams LC, Amyar A, et al. Checklist for Artificial Intelligence in Medical Imaging (CLAIM): Explanation, Elaboration, and Examples. *Radiol Artif Intell* 2026:e260835. [https://doi.org/10.1148/ryai.260835](https://doi.org/10.1148/ryai.260835)
+
 ## Reference
 
 Tejani AS, Klontzas ME, Gatti AA, et al. Checklist for Artificial Intelligence in Medical Imaging (CLAIM): 2024 Update. *Radiol Artif Intell* 2024;6(4):e240300. [https://doi.org/10.1148/ryai.240300](https://doi.org/10.1148/ryai.240300)
@@ -23,7 +29,8 @@ Tejani AS, Klontzas ME, Gatti AA, et al. Checklist for Artificial Intelligence i
 ## Links
 
 - [CLAIM Guideline site](https://pubs.rsna.org/page/ai/claim)
-- [Journal article](https://pubs.rsna.org/doi/10.1148/ryai.240300)
+- [CLAIM Explanation, Elaboration, and Examples article](https://doi.org/10.1148/ryai.260835)
+- [CLAIM 2024 Update article](https://pubs.rsna.org/doi/10.1148/ryai.240300)
 
 ## Repository structure
 
