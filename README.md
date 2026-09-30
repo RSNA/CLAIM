@@ -10,6 +10,8 @@ The objective is to support researchers and reviewers in the accurate and effect
 
 ## Website
 
+🌐 **[https://rsna.github.io/claim/](https://rsna.github.io/claim/)**
+
 The site includes:
 
 - **CLAIM 2024 Checklist** — Interactive checklist table matching the official format, with fillable page/line fields, No and NA checkboxes, and a Print / Export PDF button. Each item links to its elaboration page.
