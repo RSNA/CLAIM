@@ -9,6 +9,7 @@ logo: "/assets/CLAIM-logo.jpg"
 aux_links:
   "View on GitHub": "https://github.com/RSNA/CLAIM"
   "CLAIM Guideline": "https://pubs.rsna.org/page/ai/claim"
+  "Published Article": "https://doi.org/10.1148/ryai.260835"
 
 aux_links_new_tab: true
 
